@@ -297,7 +297,7 @@ for (var i = 3 * max_iter / 4; i < max_iter; i++){
     tableData_4[i][1] = BestFx[i].toFixed(4);
 }
 
-createTable(tableData_4);
-createTable(tableData_3);
-createTable(tableData_2);
 createTable(tableData_1);
+createTable(tableData_2);
+createTable(tableData_3);
+createTable(tableData_4);
