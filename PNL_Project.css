@@ -1,0 +1,22 @@
+.section-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;/*usefoul for mobile responsiveness*/
+    align-items: center;
+    justify-content: space-around;
+}
+
+#table-container{
+    min-width: 410px;
+    text-align: center;
+}
+table{
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 1px solid black;
+    display: inline-grid;
+    justify-items: center;
+}
+thead{
+    border-bottom: 1px solid black;
+}
