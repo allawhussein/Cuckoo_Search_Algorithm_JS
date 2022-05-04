@@ -26,4 +26,11 @@ thead{
 h4{
     text-align: center;
     font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 1125px) {
+    h4 {
+        margin-top: 1.33em;
+    }
 }
