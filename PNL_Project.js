@@ -245,6 +245,7 @@ Plotly.newPlot("BEST", graphData, layout);
 
 //Procedure to put the values in HTML table
 function createTable(tableData) {
+    var table_section = document.getElementById("table-container");
     var table = document.createElement('table');
     var tableBody = document.createElement('tbody');
   
@@ -267,7 +268,7 @@ function createTable(tableData) {
     var cell_2 = row.insertCell(1);
     cell_1.innerHTML = "<b>Iter#<b>";
     cell_2.innerHTML = "<b>BestFx<b>";
-    document.body.appendChild(table);
+    table_section.appendChild(table);
 
 }
 
