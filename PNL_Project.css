@@ -11,6 +11,9 @@
 #table-container{
     min-width: 410px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 table{
     padding: 0.5%;
